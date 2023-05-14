@@ -1,0 +1,27 @@
+h1{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 40px;
+	padding: 10px;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: left;
+}
+.graficlogo{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+#sidebar { 
+	float: left;
+	width: 20%;
+    border: 10px solid blue;
+    padding: 20px;
+    margin: 10px; 
+  }
+#main-content { 
+	margin-left: 24%;
+	border: 1px solid blue;
+  }
