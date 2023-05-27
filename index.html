@@ -8,23 +8,27 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-	<link href="css\fonts\NeueMachina\stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="css/fonts/NeueMachina/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<header>
+	<div class="content-container" style="height: 2361px;">
 		<div class="mini-logo">
 			<img class="graficlogo" src="assets/img/Logo.png" alt="Logo">
 		</div>
 		<nav class="topnav">
-			<a href="/Pages/sign-up.html">
-				<button class="log-button">регистрация</button>
-			</a>
-			<a href="/Pages/sign-in.html">
-				<button class="log-button" style="margin-left: 30px;">войти</button>
-			</a>
+			<button class="log-button" onclick="window.location.href='/Pages/sign-up.html'">регистрация</button>
+			<button class="log-button" style="margin-left: 30px;" onclick="window.location.href='/Pages/sign-in.html'">войти</button>
 		</nav>
-		<h2 style="margin-left: 4px; margin-top: 231px; margin-right: 521px; margin-bottom: 198.7px;">Мои Достижения</h2>
-	</header>
+		<header style="margin-top: 301px">
+			<h1 class="site-title">мои достижения</h1>
+			<div class="big-logo">
+				<img class="graficlogo" src="assets/img/Logo.png" alt="Logo">
+			</div>
+			<p style="width: 514px; height: 39px; margin-top: 45px;">
+				онлайн-платформа централизации достижений и развития активной деятельности
+			</p>
+		</header>
+	</div>
 
 	
 	<script src="js/script.js"></script>
